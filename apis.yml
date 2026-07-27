@@ -1,7 +1,19 @@
 aid: fooda
 name: FoodA
-description: FoodA is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fooda is a Chicago-based workplace food-service marketplace that brings meals
+  from local, independent restaurants directly to corporate offices, hospitals,
+  universities, retail locations, and distribution centers. Its technology-enabled
+  platform runs restaurant popup dining events, employer-paid meal programs,
+  contactless lunch delivery, event catering and boxed lunches, coffee, pantry,
+  and micro-market services, plus full cafeteria replacement under the Orange by
+  Fooda brand. Fooda works with 2,000+ restaurant partners and serves upwards of
+  ten million meals per year, using AI predictive modeling and machine learning
+  to match restaurants to locations and schedule thousands of events. Sibling
+  brands include Foodsby and Fooda for Restaurants. Fooda is a 500 Global
+  portfolio company. It publishes no public developer API or partner developer
+  portal; this profile captures its public web presence and domain-security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/fooda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67e1ba011ba9433457d0cd4f/69fdf2ad3135ee46147be99f_Fooda-Icon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food
+- Food Service
+- Workplace
+- Catering
+- Restaurants
+- Corporate Dining
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://fooda.com
+  url: https://www.fooda.com
+- type: Blog
+  url: https://www.fooda.com/blog
+- type: Support
+  url: https://foodacustomerhelp.atlassian.net/servicedesk/customer/portals
+- type: Login
+  url: https://app.fooda.com/login
+- type: SignUp
+  url: https://app.fooda.com/select_building
+- type: TermsOfService
+  url: https://www.fooda.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.fooda.com/privacy-policy
+- type: DomainSecurity
+  url: security/fooda-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
