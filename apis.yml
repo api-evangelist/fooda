@@ -33,7 +33,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/67e1ba011ba9433457d0cd4f/69fdf2ad3135ee46147be99f_Fooda-Icon.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
